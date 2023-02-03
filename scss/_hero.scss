@@ -2,6 +2,7 @@
   height: 100vh;
   background: linear-gradient(to right, rgba(246, 239, 239, 0.115), rgb(238, 238, 236 , 0%)), url('../images/couple-budgeting-banner.jpeg');
   background-size: cover;
+  position: relative;
 
   h1 {
     padding-top: 250px; // 90px
@@ -38,15 +39,7 @@
     width: 100%;
     left: 0;
     bottom: 0;
-
-
-
-   
-clip-path: polygon(0 40%, 100% 80%, 100% 100%, 0% 100%);
-
-
-
-
+    clip-path: polygon(0 40%, 100% 80%, 100% 100%, 0% 100%);
   }
 
   &::after {
@@ -57,12 +50,6 @@ clip-path: polygon(0 40%, 100% 80%, 100% 100%, 0% 100%);
     width: 100%;
     left: 0;
     bottom: 0;
-
-
-    
-clip-path: polygon(0 60%, 100% 100%, 100% 100%, 0% 100%);
-
-
-
+    clip-path: polygon(0 60%, 100% 100%, 100% 100%, 0% 100%);
   }
 }
