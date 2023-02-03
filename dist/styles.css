@@ -186,4 +186,20 @@ header .dashboard .avatar {
 }
 .services .cards .card:hover p, .services .cards .card:hover h3 {
   color: #ffffff;
+}
+.services .scroll {
+  background-color: #001767;
+}
+.services .scroll a {
+  color: #ffffff;
+}
+
+.navbar.scroll {
+  background-color: #001767;
+}
+.navbar.scroll .nav-links a {
+  color: #ffffff;
+}
+.navbar.scroll .nav-links a:hover {
+  border-bottom: solid 1px #ffffff;
 }/*# sourceMappingURL=styles.css.map */

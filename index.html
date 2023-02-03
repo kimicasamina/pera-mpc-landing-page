@@ -118,5 +118,23 @@
       </div>
       </div>
       </section>
+      <script>
+        const navbar = document.querySelector('.navbar')
+        const services = document.querySelector('.services')
+        const pos = services.getBoundingClientRect()
+        const x = pos.left
+        const y = pos.top
+        document.addEventListener('scroll', function(){
+          console.log('services pos:', y)
+          console.log('scroll pos:', window.scrollY)
+          console.log(navbar.classList)
+          if (window.pageYOffset >= y){
+            // add the class scroll to the navbar
+            navbar.classList.add('scroll')
+          } else {
+            navbar.classList.remove('scroll')
+          }
+        })
+      </script>
   </body>
 </html>

@@ -1,0 +1,11 @@
+// changes the background color of navbar when scrolled to the services section
+.navbar.scroll {
+  background-color: $accent-blue;
+
+  .nav-links a {
+    color: $white;
+    &:hover {
+      border-bottom: solid 1px $white;
+    }
+  } 
+}
