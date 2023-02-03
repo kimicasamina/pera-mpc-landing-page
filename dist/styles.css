@@ -4,7 +4,6 @@ html {
 }
 
 *, *::before, *::after {
-  border: solid 1px red;
   box-sizing: inherit;
   margin: 0;
   padding: 0;
@@ -143,8 +142,8 @@ header .dashboard .avatar {
   width: 100%;
   left: 0;
   bottom: 0;
-  -webkit-clip-path: polygon(0 40%, 100% 80%, 100% 100%, 0% 100%);
-          clip-path: polygon(0 40%, 100% 80%, 100% 100%, 0% 100%);
+  -webkit-clip-path: polygon(0 33%, 100% 88%, 100% 99%, 0 100%);
+          clip-path: polygon(0 33%, 100% 88%, 100% 99%, 0 100%);
 }
 .hero::after {
   content: "";
@@ -154,8 +153,8 @@ header .dashboard .avatar {
   width: 100%;
   left: 0;
   bottom: 0;
-  -webkit-clip-path: polygon(0 60%, 100% 100%, 100% 100%, 0% 100%);
-          clip-path: polygon(0 60%, 100% 100%, 100% 100%, 0% 100%);
+  -webkit-clip-path: polygon(0 54%, 100% 100%, 100% 100%, 0 100%);
+          clip-path: polygon(0 54%, 100% 100%, 100% 100%, 0 100%);
 }
 
 .services .services-intro {
