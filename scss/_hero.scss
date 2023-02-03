@@ -21,7 +21,8 @@
     padding: 15px 40px;
     border-radius: 50px;
     border: solid 2px $accent-blue;
-
+    cursor: pointer;
+    
     &:hover {
       background-color: transparent;
       color: $accent-blue;

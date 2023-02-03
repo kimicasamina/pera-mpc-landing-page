@@ -127,6 +127,7 @@ header .dashboard .avatar {
   padding: 15px 40px;
   border-radius: 50px;
   border: solid 2px #001767;
+  cursor: pointer;
 }
 .hero .cta:hover {
   background-color: transparent;
@@ -168,6 +169,7 @@ header .dashboard .avatar {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   padding: 5.625rem 0 1.875rem;
+  cursor: pointer;
 }
 .services .cards .card {
   text-align: center;
