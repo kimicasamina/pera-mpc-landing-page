@@ -60,6 +60,7 @@ header .navbar {
   display: grid;
   grid-template-columns: 200px 1fr auto;
   align-items: center;
+  z-index: 2;
 }
 header .branding {
   display: grid;
