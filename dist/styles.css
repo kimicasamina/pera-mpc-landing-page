@@ -159,15 +159,15 @@ header .dashboard .avatar {
 
 .services {
   height: 100vh;
+  padding-top: 120px;
 }
 .services .services-intro {
   text-align: center;
-  margin-bottom: 2.9375rem;
-  padding-top: 5rem;
 }
 .services .cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  padding: 5.625rem 0 1.875rem;
 }
 .services .cards .card {
   text-align: center;
@@ -185,12 +185,6 @@ header .dashboard .avatar {
   border-radius: 20px;
 }
 .services .cards .card:hover p, .services .cards .card:hover h3 {
-  color: #ffffff;
-}
-.services .scroll {
-  background-color: #001767;
-}
-.services .scroll a {
   color: #ffffff;
 }
 
