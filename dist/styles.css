@@ -4,7 +4,6 @@ html {
 }
 
 *, *::before, *::after {
-  border: solid 1px red;
   box-sizing: inherit;
   margin: 0;
   padding: 0;
@@ -132,4 +131,26 @@ header .dashboard .avatar {
   color: #001767;
   border: solid 2px #001767;
   transition: 0.3s ease-in-out;
+}
+.hero::before {
+  content: "";
+  position: absolute;
+  background-color: #001767;
+  height: 200px;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  -webkit-clip-path: polygon(0 40%, 100% 80%, 100% 100%, 0% 100%);
+          clip-path: polygon(0 40%, 100% 80%, 100% 100%, 0% 100%);
+}
+.hero::after {
+  content: "";
+  position: absolute;
+  background-color: #FFE500;
+  height: 150px;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  -webkit-clip-path: polygon(0 60%, 100% 100%, 100% 100%, 0% 100%);
+          clip-path: polygon(0 60%, 100% 100%, 100% 100%, 0% 100%);
 }/*# sourceMappingURL=styles.css.map */
