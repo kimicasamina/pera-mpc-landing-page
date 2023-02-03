@@ -1,0 +1,32 @@
+.hero {
+  height: 100vh;
+  background: linear-gradient(to right, rgba(246, 239, 239, 0.115), rgb(238, 238, 236 , 0%)), url('../images/couple-budgeting-banner.jpeg');
+  background-size: cover;
+  
+  h1 {
+    padding-top: 250px; // 90px
+    font-weight: $bold; 
+  }
+
+  p {
+    color: $accent-blue;
+    font-weight: $medium;
+    margin-bottom: 2rem;
+  }
+
+  .cta {
+    background-color: $accent-blue;
+    color: $white;
+    font-size: $font-md;
+    padding: 15px 40px;
+    border-radius: 50px;
+    border: solid 2px $accent-blue;
+
+    &:hover {
+      background-color: transparent;
+      color: $accent-blue;
+      border: solid 2px $accent-blue;
+      transition: 0.3s ease-in-out;
+    }
+  }
+}
