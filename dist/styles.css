@@ -175,10 +175,10 @@ header .dashboard .avatar {
 }
 .services .cards .card img {
   width: 80px;
-  margin-bottom: 1.875rem;
+  margin-bottom: 1rem;
 }
 .services .cards .card h3 {
-  margin-bottom: 1.5625rem;
+  margin-bottom: 1rem;
 }
 .services .cards .card:hover {
   background: linear-gradient(rgb(0, 23, 103), rgb(17, 61, 215));
