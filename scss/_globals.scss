@@ -1,0 +1,50 @@
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  // border: solid 1px red;
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: $font-sm;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.5;
+  background-color: $white;
+}
+
+h1 {
+  font-size: $font-xl;
+  color: $accent-blue;
+}
+
+
+h2 {
+  font-size: $font-lg;
+  color: $accent-blue;
+}
+
+h3 {
+  font-size: $font-md;
+  color: $accent-blue;
+}
+
+p {
+  color: $dark;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
