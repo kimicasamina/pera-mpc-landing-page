@@ -142,8 +142,8 @@ header .dashboard .avatar {
   width: 100%;
   left: 0;
   bottom: 0;
-  -webkit-clip-path: polygon(0 33%, 100% 88%, 100% 99%, 0 100%);
-          clip-path: polygon(0 33%, 100% 88%, 100% 99%, 0 100%);
+  -webkit-clip-path: polygon(0 32%, 100% 81%, 100% 100%, 0% 100%);
+          clip-path: polygon(0 32%, 100% 81%, 100% 100%, 0% 100%);
 }
 .hero::after {
   content: "";
