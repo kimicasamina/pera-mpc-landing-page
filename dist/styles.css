@@ -1,1 +1,103 @@
-/*# sourceMappingURL=styles.css.map */
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  border: solid 1px red;
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 0.875rem;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.5;
+  background-color: #ffffff;
+}
+
+h1 {
+  font-size: 4rem;
+  color: #001767;
+}
+
+h2 {
+  font-size: 1.875rem;
+  color: #001767;
+}
+
+h3 {
+  font-size: 1.125rem;
+  color: #001767;
+}
+
+p {
+  color: #333333;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 50px;
+  max-width: 100%;
+}
+
+header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+header .navbar {
+  height: 5.625rem;
+  display: grid;
+  grid-template-columns: 200px 1fr auto;
+  align-items: center;
+  background-color: white;
+  padding: 0 10rem;
+}
+header .branding {
+  display: grid;
+  place-items: center;
+}
+header .branding img {
+  width: 100%;
+  max-width: 200px;
+}
+header .nav-links a {
+  cursor: pointer;
+  color: #001767;
+  margin-left: 4.375rem;
+}
+header .nav-links a:hover {
+  border-bottom: 1px solid #001767;
+  padding-bottom: 0.5rem;
+  transition: 0.2s ease-in-out;
+}
+header .dashboard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+header .dashboard img {
+  border-radius: 50px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  cursor: pointer;
+}
+header .dashboard .notification {
+  background-color: #eeeeee;
+  width: 40px;
+  height: 40px;
+}
+header .dashboard .avatar {
+  width: 45px;
+  height: 45px;
+}/*# sourceMappingURL=styles.css.map */
