@@ -60,7 +60,6 @@ header .navbar {
   grid-template-columns: 200px 1fr auto;
   align-items: center;
   background-color: white;
-  padding: 0 10rem;
 }
 header .branding {
   display: grid;
@@ -100,4 +99,8 @@ header .dashboard .notification {
 header .dashboard .avatar {
   width: 45px;
   height: 45px;
+}
+
+.container {
+  padding: 0 160px;
 }/*# sourceMappingURL=styles.css.map */
